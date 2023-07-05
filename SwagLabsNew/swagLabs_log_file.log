@@ -1,0 +1,202 @@
+2023-07-05 18:34:22,590 - INFO - Configuration loaded successfully
+2023-07-05 18:34:22,590 - INFO - Initialization completed
+2023-07-05 18:34:24,289 - INFO - WebDriver instance created successfully.
+2023-07-05 18:34:25,181 - INFO - Opened URL: https://www.saucedemo.com/
+2023-07-05 18:34:25,308 - INFO - Running Testcase-1
+2023-07-05 18:34:25,358 - INFO - Extracted Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user']
+2023-07-05 18:34:25,358 - INFO - Extracted Passwords: ['secret_sauce']
+2023-07-05 18:34:25,624 - INFO - standard_user: Login successful!
+2023-07-05 18:34:25,669 - INFO - Default sorting option: Name (A to Z)
+2023-07-05 18:34:26,175 - INFO - Selected option: Name (A to Z)
+2023-07-05 18:34:26,175 - INFO - Test: PASS - Product names are sorted correctly for option: Name (A to Z)
+2023-07-05 18:34:26,572 - INFO - Selected option: Name (Z to A)
+2023-07-05 18:34:26,572 - INFO - Test: PASS - Product names are sorted correctly for option: Name (Z to A)
+2023-07-05 18:34:27,000 - INFO - Selected option: Price (low to high)
+2023-07-05 18:34:27,000 - INFO - Test: PASS - Product prices are sorted correctly for option: Price (low to high)
+2023-07-05 18:34:27,411 - INFO - Selected option: Price (high to low)
+2023-07-05 18:34:27,411 - INFO - Test: PASS - Product prices are sorted correctly for option: Price (high to low)
+2023-07-05 18:34:27,479 - INFO - User logged out successfully.
+2023-07-05 18:34:27,480 - INFO - ==========================================
+2023-07-05 18:34:48,283 - ERROR - Timeout occurred while waiting for element: validate_homepage
+2023-07-05 18:34:48,283 - WARNING - Not navigated to Home page
+2023-07-05 18:34:48,310 - WARNING - locked_out_user: Login failed - Epic sadface: Sorry, this user has been locked out.
+2023-07-05 18:34:48,310 - WARNING - Please login with a valid username and password.
+2023-07-05 18:34:48,310 - INFO - ==========================================
+2023-07-05 18:34:48,511 - INFO - problem_user: Login successful!
+2023-07-05 18:34:48,540 - INFO - Default sorting option: Name (A to Z)
+2023-07-05 18:34:48,967 - INFO - Selected option: Name (A to Z)
+2023-07-05 18:34:48,967 - INFO - Test: PASS - Product names are sorted correctly for option: Name (A to Z)
+2023-07-05 18:34:49,399 - INFO - Selected option: Name (A to Z)
+2023-07-05 18:34:49,400 - INFO - Test: FAIL - Product names are not sorted correctly for option: Name (Z to A)
+2023-07-05 18:34:49,818 - INFO - Selected option: Name (A to Z)
+2023-07-05 18:34:49,818 - INFO - Test: FAIL - Product prices are not sorted correctly for option: Price (low to high)
+2023-07-05 18:34:50,269 - INFO - Selected option: Name (A to Z)
+2023-07-05 18:34:50,269 - INFO - Test: FAIL - Product prices are not sorted correctly for option: Price (high to low)
+2023-07-05 18:34:50,335 - INFO - User logged out successfully.
+2023-07-05 18:34:50,336 - INFO - ==========================================
+2023-07-05 18:34:55,536 - INFO - performance_glitch_user: Login successful!
+2023-07-05 18:34:55,568 - INFO - Default sorting option: Name (A to Z)
+2023-07-05 18:34:56,061 - INFO - Selected option: Name (A to Z)
+2023-07-05 18:34:56,061 - INFO - Test: PASS - Product names are sorted correctly for option: Name (A to Z)
+2023-07-05 18:35:01,772 - INFO - Selected option: Name (Z to A)
+2023-07-05 18:35:01,772 - INFO - Test: PASS - Product names are sorted correctly for option: Name (Z to A)
+2023-07-05 18:35:07,323 - INFO - Selected option: Price (low to high)
+2023-07-05 18:35:07,323 - INFO - Test: PASS - Product prices are sorted correctly for option: Price (low to high)
+2023-07-05 18:35:12,772 - INFO - Selected option: Price (high to low)
+2023-07-05 18:35:12,773 - INFO - Test: PASS - Product prices are sorted correctly for option: Price (high to low)
+2023-07-05 18:35:12,832 - INFO - User logged out successfully.
+2023-07-05 18:35:12,832 - INFO - ==========================================
+2023-07-05 18:35:12,832 - INFO - Running Testcase-2
+2023-07-05 18:35:12,868 - INFO - Extracted Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user']
+2023-07-05 18:35:12,868 - INFO - Extracted Passwords: ['secret_sauce']
+2023-07-05 18:35:13,047 - INFO - standard_user: Login successful!
+2023-07-05 18:35:13,047 - INFO - Logged in successfully as standard_user.
+2023-07-05 18:35:33,617 - ERROR - Timeout occurred while waiting for element: CartStatus
+2023-07-05 18:35:33,617 - WARNING - The cart count element was not found.
+2023-07-05 18:35:33,839 - INFO - All products have been successfully added to the cart
+2023-07-05 18:35:33,840 - INFO - Test: PASS
+2023-07-05 18:35:33,906 - INFO - User logged out successfully.
+2023-07-05 18:35:33,908 - INFO - ==========================================
+2023-07-05 18:35:54,593 - ERROR - Timeout occurred while waiting for element: validate_homepage
+2023-07-05 18:35:54,593 - WARNING - Not navigated to Home page
+2023-07-05 18:35:54,645 - WARNING - locked_out_user: Login failed - Epic sadface: Sorry, this user has been locked out.
+2023-07-05 18:35:54,645 - WARNING - Please login with a valid username and password.
+2023-07-05 18:35:54,645 - INFO - ==========================================
+2023-07-05 18:35:54,863 - INFO - problem_user: Login successful!
+2023-07-05 18:35:54,863 - INFO - Logged in successfully as problem_user.
+2023-07-05 18:36:35,947 - ERROR - Timeout occurred while waiting for element: AddtocartButtons
+2023-07-05 18:36:35,947 - INFO - No 'Add to Cart' buttons found
+2023-07-05 18:36:35,981 - INFO - No products added to the cart
+2023-07-05 18:36:35,981 - INFO - Test: FAIL
+2023-07-05 18:36:36,046 - INFO - User logged out successfully.
+2023-07-05 18:36:36,046 - INFO - ==========================================
+2023-07-05 18:36:41,240 - INFO - performance_glitch_user: Login successful!
+2023-07-05 18:36:41,241 - INFO - Logged in successfully as performance_glitch_user.
+2023-07-05 18:37:22,324 - ERROR - Timeout occurred while waiting for element: AddtocartButtons
+2023-07-05 18:37:22,324 - INFO - No 'Add to Cart' buttons found
+2023-07-05 18:37:22,363 - INFO - No products added to the cart
+2023-07-05 18:37:22,363 - INFO - Test: FAIL
+2023-07-05 18:37:22,417 - INFO - User logged out successfully.
+2023-07-05 18:37:22,417 - INFO - ==========================================
+2023-07-05 18:37:22,417 - INFO - Running Testcase-3
+2023-07-05 18:37:22,464 - INFO - Extracted Usernames: ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user']
+2023-07-05 18:37:22,464 - INFO - Extracted Passwords: ['secret_sauce']
+2023-07-05 18:37:22,623 - INFO - standard_user: Login successful!
+2023-07-05 18:37:22,663 - INFO - List of products is displayed.
+2023-07-05 18:37:22,786 - INFO - Clicked on product: Sauce Labs Backpack
+2023-07-05 18:37:43,426 - ERROR - Timeout occurred while waiting for element: AddtocartButton
+2023-07-05 18:37:43,426 - ERROR - AddTo cart button is not clickable
+2023-07-05 18:37:43,492 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:37:43,513 - INFO - Returned to the product list page.
+2023-07-05 18:37:43,648 - INFO - Clicked on product: Sauce Labs Bike Light
+2023-07-05 18:38:04,237 - ERROR - Timeout occurred while waiting for element: AddtocartButton
+2023-07-05 18:38:04,237 - ERROR - AddTo cart button is not clickable
+2023-07-05 18:38:04,295 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:38:04,309 - INFO - Returned to the product list page.
+2023-07-05 18:38:04,417 - INFO - Clicked on product: Sauce Labs Bolt T-Shirt
+2023-07-05 18:38:25,061 - ERROR - Timeout occurred while waiting for element: AddtocartButton
+2023-07-05 18:38:25,061 - ERROR - AddTo cart button is not clickable
+2023-07-05 18:38:25,125 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:38:25,140 - INFO - Returned to the product list page.
+2023-07-05 18:38:25,257 - INFO - Clicked on product: Sauce Labs Fleece Jacket
+2023-07-05 18:38:45,889 - ERROR - Timeout occurred while waiting for element: AddtocartButton
+2023-07-05 18:38:45,889 - ERROR - AddTo cart button is not clickable
+2023-07-05 18:38:45,956 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:38:45,977 - INFO - Returned to the product list page.
+2023-07-05 18:38:46,087 - INFO - Clicked on product: Sauce Labs Onesie
+2023-07-05 18:39:06,709 - ERROR - Timeout occurred while waiting for element: AddtocartButton
+2023-07-05 18:39:06,709 - ERROR - AddTo cart button is not clickable
+2023-07-05 18:39:06,782 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:06,798 - INFO - Returned to the product list page.
+2023-07-05 18:39:06,914 - INFO - Clicked on product: Test.allTheThings() T-Shirt (Red)
+2023-07-05 18:39:27,503 - ERROR - Timeout occurred while waiting for element: AddtocartButton
+2023-07-05 18:39:27,503 - ERROR - AddTo cart button is not clickable
+2023-07-05 18:39:27,557 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:27,572 - INFO - Returned to the product list page.
+2023-07-05 18:39:27,573 - INFO - Navigating to cart page.
+2023-07-05 18:39:27,653 - INFO - Successfully navigated to cart page.
+2023-07-05 18:39:27,653 - INFO - Retrieving product list from cart.
+2023-07-05 18:39:27,990 - INFO - Product name, price, and description are MATCHED
+2023-07-05 18:39:28,038 - INFO - Clicked on 'Checkout' button
+2023-07-05 18:39:28,267 - INFO - Checkout address validated
+2023-07-05 18:39:28,321 - INFO - Clicked on 'Continue' button
+2023-07-05 18:39:28,392 - INFO - Sum of all product prices matched with item total price.
+2023-07-05 18:39:28,392 - INFO - Sum of tax price and item price matched with total price
+2023-07-05 18:39:28,431 - INFO - Clicked on 'Finish' button
+2023-07-05 18:39:28,457 - INFO - Order-Confirmation-Message: Thank you for your order!
+2023-07-05 18:39:28,457 - INFO - Test: Pass
+2023-07-05 18:39:28,591 - INFO - User logged out successfully.
+2023-07-05 18:39:28,591 - INFO - ===============================================
+2023-07-05 18:39:49,302 - ERROR - Timeout occurred while waiting for element: validate_homepage
+2023-07-05 18:39:49,302 - WARNING - Not navigated to Home page
+2023-07-05 18:39:49,336 - WARNING - locked_out_user: Login failed - Epic sadface: Sorry, this user has been locked out.
+2023-07-05 18:39:49,336 - WARNING - Please login with a valid username and password.
+2023-07-05 18:39:49,337 - INFO - ===============================================
+2023-07-05 18:39:49,519 - INFO - problem_user: Login successful!
+2023-07-05 18:39:49,568 - INFO - List of products is displayed.
+2023-07-05 18:39:49,677 - INFO - Clicked on product: Sauce Labs Backpack
+2023-07-05 18:39:49,795 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:49,810 - INFO - Returned to the product list page.
+2023-07-05 18:39:49,929 - INFO - Clicked on product: Sauce Labs Bike Light
+2023-07-05 18:39:50,049 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:50,066 - INFO - Returned to the product list page.
+2023-07-05 18:39:50,173 - INFO - Clicked on product: Sauce Labs Bolt T-Shirt
+2023-07-05 18:39:50,293 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:50,309 - INFO - Returned to the product list page.
+2023-07-05 18:39:50,420 - INFO - Clicked on product: Sauce Labs Fleece Jacket
+2023-07-05 18:39:50,536 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:50,553 - INFO - Returned to the product list page.
+2023-07-05 18:39:50,665 - INFO - Clicked on product: Sauce Labs Onesie
+2023-07-05 18:39:50,792 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:50,806 - INFO - Returned to the product list page.
+2023-07-05 18:39:50,916 - INFO - Clicked on product: Test.allTheThings() T-Shirt (Red)
+2023-07-05 18:39:51,037 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:39:51,053 - INFO - Returned to the product list page.
+2023-07-05 18:39:51,053 - INFO - Navigating to cart page.
+2023-07-05 18:39:51,103 - INFO - Successfully navigated to cart page.
+2023-07-05 18:39:51,103 - INFO - Retrieving product list from cart.
+2023-07-05 18:40:11,673 - ERROR - Timeout occurred while waiting for element: cartItems
+2023-07-05 18:40:11,673 - ERROR - No products found in cart
+2023-07-05 18:40:11,673 - ERROR - Test: FAIL
+2023-07-05 18:40:11,764 - INFO - User logged out successfully.
+2023-07-05 18:40:11,764 - INFO - ===============================================
+2023-07-05 18:40:16,946 - INFO - performance_glitch_user: Login successful!
+2023-07-05 18:40:16,987 - INFO - List of products is displayed.
+2023-07-05 18:40:17,091 - INFO - Clicked on product: Sauce Labs Backpack
+2023-07-05 18:40:17,198 - INFO - Clicked 'Add to Cart' button
+2023-07-05 18:40:22,240 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:40:22,255 - INFO - Returned to the product list page.
+2023-07-05 18:40:22,353 - INFO - Clicked on product: Sauce Labs Bike Light
+2023-07-05 18:40:22,458 - INFO - Clicked 'Add to Cart' button
+2023-07-05 18:40:27,498 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:40:27,513 - INFO - Returned to the product list page.
+2023-07-05 18:40:27,613 - INFO - Clicked on product: Sauce Labs Bolt T-Shirt
+2023-07-05 18:40:27,715 - INFO - Clicked 'Add to Cart' button
+2023-07-05 18:40:32,756 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:40:32,772 - INFO - Returned to the product list page.
+2023-07-05 18:40:32,871 - INFO - Clicked on product: Sauce Labs Fleece Jacket
+2023-07-05 18:40:32,981 - INFO - Clicked 'Add to Cart' button
+2023-07-05 18:40:38,023 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:40:38,038 - INFO - Returned to the product list page.
+2023-07-05 18:40:38,140 - INFO - Clicked on product: Sauce Labs Onesie
+2023-07-05 18:40:38,248 - INFO - Clicked 'Add to Cart' button
+2023-07-05 18:40:43,292 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:40:43,307 - INFO - Returned to the product list page.
+2023-07-05 18:40:43,405 - INFO - Clicked on product: Test.allTheThings() T-Shirt (Red)
+2023-07-05 18:40:43,507 - INFO - Clicked 'Add to Cart' button
+2023-07-05 18:40:48,550 - INFO - Clicked 'Back to products' button.
+2023-07-05 18:40:48,565 - INFO - Returned to the product list page.
+2023-07-05 18:40:48,565 - INFO - Navigating to cart page.
+2023-07-05 18:40:48,614 - INFO - Successfully navigated to cart page.
+2023-07-05 18:40:48,614 - INFO - Retrieving product list from cart.
+2023-07-05 18:40:48,925 - INFO - Product name, price, and description are MATCHED
+2023-07-05 18:40:48,968 - INFO - Clicked on 'Checkout' button
+2023-07-05 18:40:49,171 - INFO - Checkout address validated
+2023-07-05 18:40:49,217 - INFO - Clicked on 'Continue' button
+2023-07-05 18:40:49,281 - INFO - Sum of all product prices matched with item total price.
+2023-07-05 18:40:49,281 - INFO - Sum of tax price and item price matched with total price
+2023-07-05 18:40:49,322 - INFO - Clicked on 'Finish' button
+2023-07-05 18:40:49,343 - INFO - Order-Confirmation-Message: Thank you for your order!
+2023-07-05 18:40:49,343 - INFO - Test: Pass
+2023-07-05 18:40:54,469 - INFO - User logged out successfully.
+2023-07-05 18:40:54,469 - INFO - ===============================================

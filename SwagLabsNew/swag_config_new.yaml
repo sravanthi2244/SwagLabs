@@ -1,0 +1,86 @@
+url: "https://www.saucedemo.com/"
+log_file: swagLabs_log_file.log
+
+
+Login:
+ userName : ".login_credentials"
+ password : ".login_password"
+ userName_textbox : "#user-name"
+ passWord_textbox : "#password"
+ loginButton : "#login-button"
+ validate_homepage : ".inventory_item_name"
+ error_message : "h3[data-test='error']"
+
+Logout:
+ sideButton: "#react-burger-menu-btn"
+ logoutButton: "#logout_sidebar_link"
+ ValidateLogout: "#user-name"
+
+productSorting :
+ selectDropdown : ".product_sort_container"
+ defaultOption : ".product_sort_container option:checked"
+ optionsList : ".product_sort_container option"
+ productNames : ".inventory_item_name"
+ productPrices : ".inventory_item_price"
+
+
+AddToCart:
+ AddtocartButtons: "//button[contains(@id,'add-to-cart')]"
+ CartStatus: "//span[@class='shopping_cart_badge']"
+
+
+productSelection:
+ verifyProductList: ".inventory_item_name"
+ beforeSelection : ".inventory_item_description"
+ Bproduct_name : ".inventory_item_name"
+ BproductPrice : ".inventory_item_price"
+ BproductDesc : ".inventory_item_desc"
+ AfterSelection: ".inventory_details_desc_container"
+ AproductName : "div[class*='inventory_details_name']"
+ AproductPrice : "div[class*='inventory_details_price']"
+ AproductDesc : "div[class*='inventory_details_desc']"
+ backToProductsButton: "#back-to-products"
+ validateHomepage : ".title"
+
+
+ProductAddtocart:
+ productName: ".inventory_item_name"
+ productPrice: ".inventory_item_price"
+ productDesc: ".inventory_item_desc"
+ detail_pagevalidation: "#back-to-products"
+ AddtocartButton: "//button[contains(@id,'add-to-cart')]"
+ cartIcon: ".shopping_cart_link"
+ validatecartpage: ".title"
+ cartItems: ".cart_item"
+ cartitemName: "div[class*='inventory_item_name']"
+ cartitemPrice: "div[class*='inventory_item_price']"
+ cartitemDesc: "div[class*='inventory_item_desc']"
+
+
+CheckOut:
+ checkout_btn: "#checkout"
+ checkoutpage: ".title"
+ continue_btn: "#continue"
+ firstName: "#first-name"
+ lastName: "#last-name"
+ PostalCode: "#postal-code"
+ itemTotal : ".summary_subtotal_label"
+ taxPrice: ".summary_tax_label"
+ TotalPrice: ".summary_total_label"
+ finish_button: "#finish"
+ complete_msg: ".complete-header"
+ backToHome: "#back-to-products"
+ validate_home_page: ".title"
+
+
+addresses:
+  - first_name: John
+    last_name: Doe
+    postal_code: 12345
+  - first_name: Jane
+    last_name: Smith
+    postal_code: 67890
+  - first_name: Bob
+    last_name: Johnson
+    postal_code: 54321
+
